@@ -1,5 +1,9 @@
 theme: minima
 
+header_pages:
+  - tags.html
+  - statistic.html
+
 defaults:
   # _posts
   - scope:
