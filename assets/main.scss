@@ -6,3 +6,46 @@
 code {
   font-family: Menlo, Consolas, Monaco, "Courier New", Courier, monospace;
 }
+
+a:visited {
+  color: #2a7ae2;
+}
+
+
+ul.tag-items {
+  margin-left: 0;
+  padding-right: 10%;
+  list-style: none;
+
+  li {
+    float: left;
+    margin: .1em 0;
+  }
+
+  li:before {
+    content: "/\00a0"
+  }
+
+  li:after {
+    content: "\00a0"
+  }
+
+  + *{
+    clear: both;
+    padding-top: 30px;
+  }
+}
+
+.plist-inl  {
+  margin-left: 0;
+  list-style: none;
+
+  > li {
+    margin-bottom: 8px;
+  }
+}
+
+.pl-inl {
+  font-size: 20px;
+}
+
