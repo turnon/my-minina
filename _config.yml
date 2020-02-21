@@ -3,6 +3,7 @@ theme: minima
 header_pages:
   - tags.html
   - statistic.html
+  - about.html
 
 defaults:
   # _posts
